@@ -1,0 +1,7 @@
+name             'ops-exercise'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures ops-exercise'
+long_description 'Installs/Configures ops-exercise'
+version          '0.1.0'
