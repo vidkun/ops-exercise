@@ -2,7 +2,8 @@
 # Cookbook Name:: ops-exercise
 # Recipe:: default
 #
-# Copyright (C) 2016 YOUR_NAME
-#
-# All rights reserved - Do Not Redistribute
-#
+include_recipe 'apt'
+include_recipe 'ops-exercise::database'
+include_recipe 'ops-exercise::wordpress'
+include_recipe 'os-hardening'
+include_recipe 'ssh-hardening'
